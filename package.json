@@ -1,0 +1,58 @@
+{
+  "name": "warframe-picker-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Random Warframe Picker.",
+  "author": "André Santos <owheropicker@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "format": "prettier \"src/**/*.{js,css,vue}\" --write",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.16.0",
+    "es6-promise": "^4.2.8",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.5",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "homepage": "https://www.warframepicker.com",
+  "keywords": [
+    "games",
+    "warframe",
+    "random frame"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrerfcsantos/warframe-picker.git"
+  },
+  "resolutions": {
+    "minimist": "1.2.3",
+    "mkdir": "0.5.3"
+  }
+}
